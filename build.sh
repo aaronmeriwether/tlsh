@@ -31,7 +31,7 @@ SOURCE_FILES=(
 {
     printf '#!/usr/bin/env bash\n'
     printf '# tlsh - TLS in Shell (built %s)\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-    printf '# https://github.com/p120ph37/tlsh\n'
+    printf '# https://github.com/aaronmeriwether/tlsh\n'
     printf 'set -euo pipefail\n\n'
 
     for src in "${SOURCE_FILES[@]}"; do
